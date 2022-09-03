@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: aquamarine;
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    
+}
+/* Vector */
+.logo{
+   width: 100%;
+   float: left;
+}
+
+.titulo{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 66%;
+    border-radius: 22px;
+    
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 22px;
+    background-color: azure;
+    inline-block;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px; 
+}
+
+
+.right:hover{
+    border-color: blue;
+    }
+
+.right:active{
+    border-color: orange;
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 22px;
+    
+}
+
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.titulo{
+    float: inherit;
+    margin-left: 35%;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: aquamarine;
+    
+}
+#imgDer{
+    margin-left: 3%;
+    margin-top: 20%;
+    width: 90%;
+    height: 90%;
+}
+#texto{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#texto2{
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btnEncriptado{
+    padding: 24px;
+    width: 30%;
+    height: 30%;
+    font-size: 18px; /* tamaño txt*/
+    font-style: italic; /* letra inclinada */
+    font-weight: bold; /* negrilla*/
+    color:azure; /* color del txt*/
+    background: #ca6048; /* color de fondo de la caja */
+    border: none; /* elimina los bordes de la caja */
+    border-radius: 20px; /* bordea las esquinas de la caja por medio del radio */
+    transition: 1s all; /* este atributo hace la transicion de color tamaño y txt por defecto al puesto en el hover */
+    cursor:pointer; /* este atributo cambia la flecha por la manito en el cursor*/
+}
+
+.btnEncriptado:hover{
+    background: #df0000;
+    color: azure;
+    transform: scale(1.1);
+}
+
+.btnDesencriptado{
+    padding: 24px;
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    font-size: 18px; /* tamaño txt*/
+    font-style: italic; /* letra inclinada */
+    font-weight: bold; /* negrilla*/
+    color: azure; /* color del txt*/
+    background: #1E90FF; /* color de fondo de la caja */
+    border: none; /* elimina los bordes de la caja */
+    border-radius: 20px; /* bordea las esquinas de la caja por medio del radio */
+    transition: 1s all; /* este atributo hace la transicion de color tamaño y txt por defecto al puesto en el hover */
+    cursor:pointer; /* este atributo cambia la flecha por la manito en el cursor*/
+}
+
+.btnDesencriptado:hover{
+    background: #1b00ff;
+    color: azure;
+    transform: scale(1.1);
+}
+.btnCopiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 22px;
+    display: none;
+   
+}
